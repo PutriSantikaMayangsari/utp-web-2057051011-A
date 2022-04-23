@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'century gothic';
+}
+
+nav{
+    background: pink;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0;
+    font-weight: bold;
+}
+
+img{
+    height: 200px;
+}
+
+button li a{
+    color: black;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+nav button ul li{
+    display: inline-block;
+    color: #000;
+    margin: 0 5px;
+    line-height: 50px;
+}
+
+button{
+    background-color: pink;
+    border-style: none;
+    font-size: 20px;
+    font-family: century-gothic;
+    font-weight: bold;
+    float: right;
+    margin-right: 20px;
+}
+
+a.active, a:hover{
+    background: rgb(210, 182, 187);
+    transition: .5s;
+}
+
+table{
+    width: 100%;
+    margin: auto;
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+.slider{
+    height: 500px;
+    background: rgb(210, 182, 187);
+}
+
+.line{
+    background: #000;
+    width: 100px;
+    height: 3px;
+}
+
+.previous {
+    background-color: #f1f1f1;
+    color: black;
+}
+  
+ .next {
+    background-color: rgb(210, 182, 187);
+    color: black;
+}
